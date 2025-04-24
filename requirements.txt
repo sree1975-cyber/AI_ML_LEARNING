@@ -1,6 +1,7 @@
 # Use these exact versions
 streamlit
-pandas<=2.0.3
+numpy<2
+pandas==2.2.3
 scikit-learn==1.2.2
 xgboost==1.7.6
 shap==0.42.1
