@@ -1,3 +1,6 @@
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split
+
 def train_xgboost(X, y, params):
     # Convert params
     if params['scale_pos_weight'] == 'auto':
