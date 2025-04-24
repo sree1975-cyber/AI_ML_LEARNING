@@ -3,7 +3,7 @@ import streamlit as st
 import yaml
 from pathlib import Path
 import pandas as pd
-from utils.data_loader import load_data
+#from utils.data_loader import load_data
 from utils.preprocessor import preprocess_data
 from utils.model_trainer import train_xgboost
 from utils.explainer import generate_shap
